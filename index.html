@@ -27,11 +27,11 @@
                         <span class="form__error">e-mail в формате: students-yandex@yandex.ru</span>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="tel" name="tel" placeholder="Телефон" pattern="^(\+7|8).*?([0-9]{3}).*?([0-9]{3}).?([0-9]{2}).?([0-9]{2})\d{0}" minlength="11" maxlength="18"  required/>
+                        <input class="form__input" type="tel" name="tel" placeholder="Телефон" pattern="^(\+7|8).*?([0-9]{3}).*?([0-9]{3}).?([0-9]{2}).?([0-9]{2})$" minlength="11" maxlength="18"  required/>
                         <span class="form__error">телефон в формате: +7 (900) 000-00-00</span>
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="url" name="url" pattern="" placeholder="Ваш сайт" required/>
+                        <input class="form__input" type="text" name="url" placeholder="Ваш сайт" pattern="^(?:https?://)?(www\.)?(?:([a-zA-Z1-9-]{2,}\.[a-z]{2,4})|(\d\d\d\.){3}(\d\d\d:){1}(\d\d\d\d))?" required/>
                         <span class="form__error">URL в формате: http://mysite.ru</span>
                     </div>
                     <button class="form__button" type="submit">Отправить</button>
