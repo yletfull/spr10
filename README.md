@@ -1,5 +1,5 @@
-![alt-текст](logo.svg "Текст заголовка логотипа 1")
-
+![alt-текст](logo.svg "Студент Практикума")
+***10 sprint***
 | Description    | Version   |
 |:------------------:| -----:|
 | interface is released| v0.0.1 |
