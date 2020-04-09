@@ -23,7 +23,7 @@
                         <input class="form__input" type="text" name="name" pattern="^[А-ЯЁ][а-яё]+(?:-+[А-ЯЁ][а-яё]+)?$" placeholder="Имя" minlength="2" maxlength="20" required />
                     </div>
                     <div class="form__field">
-                        <input class="form__input" type="email" name="email" pattern="^[.a-zA-Z1-9_?-?]+@[a-zA-Z1-9-]+\.[a-z]{2,}$" placeholder="E-Mail" required />
+                        <input class="form__input" type="email" name="email" pattern="^[^-_.][.a-zA-Z1-9_?\-?]+@[a-zA-Z1-9-]+\.[a-z]{2,}$" placeholder="E-Mail" required />
                         <span class="form__error">e-mail в формате: students-yandex@yandex.ru</span>
                     </div>
                     <div class="form__field">
