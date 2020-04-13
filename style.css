@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> develop
 @keyframes errors {
     from {
       margin-top: -5px;
@@ -129,8 +125,4 @@ html {
 
 .form__input:invalid:not(:placeholder-shown) + .form__error {
 	display: block;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> develop
