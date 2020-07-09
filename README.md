@@ -1,7 +1,7 @@
 # Reg exp
 # Validation of input fields (**Yandex Praktikum 10 sprint**) 
 
-## Description :
+## 1 Description :
 **Validation of fields of the following type :**
 
 1. Name validation;
@@ -31,11 +31,11 @@
 - The path is a sequence of numbers, slashes and Latin letters, at the end of which there can be a lattice #.
 
 
-##  About author : 
+## 2  About author : 
 Andrey Korlyakov, Yandex Praktikum student.  
 
 
-## Demo :
+## 3 Demo :
 | Description    | Version   |
 |:------------------:| -----:|
 | interface is released| v0.0.1 |
@@ -47,5 +47,5 @@ Andrey Korlyakov, Yandex Praktikum student.
 | [The second working version](https://yletfull.github.io/spr10/)  | v0.1.1 |
 | [The third working version](https://yletfull.github.io/spr10/)  | v0.1.2 |
 
-## GitHub Pages :
+## 4 GitHub Pages :
 [***Actual Version***](https://yletfull.github.io/spr10/)
