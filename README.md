@@ -47,4 +47,5 @@ Andrey Korlyakov, Yandex Praktikum student.
 | [The second working version](https://yletfull.github.io/spr10/)  | v0.1.1 |
 | [The third working version](https://yletfull.github.io/spr10/)  | v0.1.2 |
 
-[***Actual version 0.1.2***](https://yletfull.github.io/spr10/)
+## GitHub Pages :
+[***Actual Version***](https://yletfull.github.io/spr10/)
