@@ -1,21 +1,20 @@
-# Reg exp
-# Validation of input fields (**Yandex Praktikum 10 sprint**) 
+# Регулярные выражения и валидация
+# Валидация полей формы 
 
-## 1 Description :
-**Validation of fields of the following type :**
+## 1 Описание :
+**Реализовано :**
 
 1. Name validation;
- - Only Cyrillic;
- - The first letter is uppercase;
- - You can enter from 2 to 20 characters - this can be set in the minlength and maxlength attributes;
- - Double names can be recorded - for example, Anna-Maria;
-
+ - только кириллица;
+ - первая буква заглавная;
+ - можно ввести от 2 до 20 символов — это можно задать в атрибутах minlength и maxlength;
+ - шаблон должен находить имена таких форматов:
 2. Mail validation
- - Latin only  ;
- - `@` Is a required character  ;
- - `.` also a required character  ;
- - *Numbers, underline, dash - allowed characters ;
- 
+ - только латиница;
+ - «собака» `@`— обязательный символ;
+ - `.` обязательный символ;
+ - цифры, подчерк, тире — разрешённые символы;
+
 3. Phone number validation
  - *+7(925)900-90-90*
  - *+7(925) 900-90-90*
@@ -24,12 +23,11 @@
  - *89259009090*  
   
 4. Url validation
-- Start with http: // or https: //;
-- Then www. - This is an optional group;
-- IP address - 255.255.255.255 or domain name - stasbasov.ru;
-- Port is also an optional group. The port starts with a colon followed by 2 to 5 digits. For example:: 8080;
-- The path is a sequence of numbers, slashes and Latin letters, at the end of which there can be a lattice #.
-
+- начинаться с `http://` или `https://`;
+- затем `www.` — это необязательная группа;
+- IP-адрес — 255.255.255.255 или доменное имя — ya.ru;
+- порт — тоже необязательная группа. Порт начинается с двоеточия, за которым идут от 2 до 5 цифр. Например: :8080;
+- путь — последовательность из цифр, слешей и латинских букв, на конце которого может стоять решётка #;
 
 ## 2  About author : 
 Andrey Korlyakov, Yandex Praktikum student.  
