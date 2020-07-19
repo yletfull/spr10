@@ -1,7 +1,10 @@
-# Регулярные выражения и валидация
+# 1 Регулярные выражения и валидация
 # Валидация полей формы 
 
-## 1 Описание :
+## 2. Актуальная версия  
+V 0.1.2  
+
+## 3 Описание :
 **Реализовано :**
 
 1. Name validation;
@@ -29,21 +32,6 @@
 - порт — тоже необязательная группа. Порт начинается с двоеточия, за которым идут от 2 до 5 цифр. Например: :8080;
 - путь — последовательность из цифр, слешей и латинских букв, на конце которого может стоять решётка #;
 
-## 2  About author : 
-Andrey Korlyakov, Yandex Praktikum student.  
-
-
-## 3 Demo :
-| Description    | Version   |
-|:------------------:| -----:|
-| interface is released| v0.0.1 |
-| Name field validation is released| v0.0.2 |
-| Mail field validation is released| v0.0.3 |
-| Phone field validation is released| v0.0.4 |
-| Url field validation is released| v0.0.5 |
-| [The first working version](https://yletfull.github.io/spr10/)  | v0.1.0 |
-| [The second working version](https://yletfull.github.io/spr10/)  | v0.1.1 |
-| [The third working version](https://yletfull.github.io/spr10/)  | v0.1.2 |
 
 ## 4 GitHub Pages :
 [***Actual Version***](https://yletfull.github.io/spr10/)
